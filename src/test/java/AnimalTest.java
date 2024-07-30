@@ -43,5 +43,4 @@ public class AnimalTest {
         String expectedFamilies = "Существует несколько семейств: заячьи, беличьи, мышиные, кошачьи, псовые, медвежьи, куньи";
         assertEquals("Должны вернуться виды семейств", expectedFamilies, animal.getFamily());
     }
-
 }

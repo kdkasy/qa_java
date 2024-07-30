@@ -2,12 +2,12 @@ package com.example;
 
 import java.util.List;
 
-public class AlexTheLion extends Lion{
+public class AlexTheLion extends Lion {
     public AlexTheLion(Feline feline) throws Exception {
         super("Самец", feline);
     }
 
-    public List<String> getFriends(){
+    public List<String> getFriends() {
         return List.of("Марти", "Глория", "Мелман");
     }
 
@@ -16,7 +16,7 @@ public class AlexTheLion extends Lion{
     }
 
     @Override
-    public int getKittens(){
+    public int getKittens() {
         return 0;
     }
 }

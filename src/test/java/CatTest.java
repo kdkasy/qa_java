@@ -16,11 +16,10 @@ import static org.mockito.Mockito.doThrow;
 @RunWith(MockitoJUnitRunner.class)
 public class CatTest {
     @Mock
-    Feline feline;
+    private Feline feline;
 
     @Rule
     public ExpectedException exceptionRule = ExpectedException.none();
-
 
     @Test
     public void getSoundTest(){

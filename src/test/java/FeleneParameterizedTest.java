@@ -17,7 +17,7 @@ public class FeleneParameterizedTest {
     private final int expectedKittens;
 
     @Spy
-    Feline feline;
+    private Feline feline;
     private AutoCloseable closeable;
 
     public FeleneParameterizedTest(int numberOfKittens, int expectedKittens) {

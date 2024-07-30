@@ -16,11 +16,10 @@ import static org.mockito.Mockito.doThrow;
 public class FelineTest {
 
     @Spy
-    Feline feline;
+    private Feline feline;
 
     @Rule
     public ExpectedException exceptionRule = ExpectedException.none();
-
 
     @Test
     public void eatMeatTest() throws Exception {
@@ -45,6 +44,4 @@ public class FelineTest {
         String expectedFamily = "Кошачьи";
         assertEquals("Семейство ожидается \"Кошачьи\"", expectedFamily, feline.getFamily());
     }
-
-
 }

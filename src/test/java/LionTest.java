@@ -17,7 +17,7 @@ import static org.mockito.Mockito.doThrow;
 
 public class LionTest {
     @Mock
-    Feline feline;
+    private Feline feline;
     private AutoCloseable closeable;
 
     @Rule

@@ -16,7 +16,7 @@ public class LionParameterizedTest {
     private final boolean isHasMane;
 
     @Mock
-    Feline feline;
+    private Feline feline;
     private AutoCloseable closeable;
 
     public LionParameterizedTest(String sex, boolean isHasMane) {

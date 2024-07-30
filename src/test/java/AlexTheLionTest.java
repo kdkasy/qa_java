@@ -15,7 +15,7 @@ public class AlexTheLionTest {
 
     private AlexTheLion alex;
     @Mock
-    Feline feline;
+    private Feline feline;
 
     @Before
     public void init() throws Exception {
@@ -38,7 +38,4 @@ public class AlexTheLionTest {
     public void alexKittensTest(){
         assertEquals("У Алекса нет детей",0, alex.getKittens());
     }
-
-
-
 }
